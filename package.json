@@ -1,0 +1,30 @@
+{
+  "name": "mdui-v2-material-color-utilities",
+  "version": "0.0.1",
+  "description": "A wrapper of material-color-utilities for mdui v2",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/xianfei/mdui-v2-material-color-utilities",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["material", "colors", "design", "utilities"],
+  "author": "xianfei",
+  "license": "MIT",
+  "dependencies": {
+    "@material/material-color-utilities": "^0.3.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.39.0",
+    "rollup-plugin-dts": "^6.2.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.2"
+  }
+}
